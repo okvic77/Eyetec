@@ -1,0 +1,17 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Upload": "git add . && git commit -m 'update index.js' && git push heroku master",
+        "Run": "node index.js"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain}}:5000/",
+        "Box URL SSL": "https://{{domain}}:9500/"
+  }
+}
